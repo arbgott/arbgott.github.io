@@ -1,0 +1,23 @@
+body{
+	background-color: #088F8F /*blue green -> i also really liked cadmium green Celadon
+and Verdigris */;
+}
+.assignmentname{
+	color: #ffc40c ; /*yellow*/ 
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Courier New', monospace;
+	font-weight:  bold;
+}
+.bodytext{
+	color: #FFAC1C  /*darker yellow ffc40c */ ;
+	font-size: 22px;
+	text-align: center;
+	font-family: 'courier new', monospace;
+}
+.imglayout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
