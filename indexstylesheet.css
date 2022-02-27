@@ -17,10 +17,7 @@ and Verdigris */;
   color: #ffc40c ; /*yellow*/
 
 }
-div{
-   column-count: 2;
-  column-gap: 40px;
-}
+
 .weeknumbutt {
   font-size: 16px;
   font-weight: 250;
