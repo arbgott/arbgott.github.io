@@ -1,0 +1,50 @@
+body {
+    background-color: #088F8F;
+}
+
+#theEyes {
+ text-align:center;
+ /* background-color: pink; */
+}
+
+button {
+    padding: 5vw;
+    border: solid 3px;
+    border-radius: 35px;
+    background-image:  url(https://media.giphy.com/media/8YBpKSm3uPWG9Ca0F4/giphy.gif);
+    font-size:  100 px;
+    color:  white;
+}
+
+button:hover {
+    background-color:  rgb(214, 161, 63);
+    color:  rgb(214, 161, 63);
+   
+}
+#theNose {
+    height: 20vh;
+    width: 60px;
+    background-image: url(https://media.giphy.com/media/xTiTnx4rTU9kOPqpgs/giphy.gif) ;   
+    margin-left: auto;
+    margin-right:auto;
+   
+}
+#theMouth {
+    display:flex;
+    justify-content: center;
+    border: black;
+    border-style: double;
+    flex-grow: 2;
+}
+
+
+#theMouth p {
+    background-color: skyblue;
+    /* width: 50px; */
+    padding:1vw;
+}
+
+.theTeeth {
+    flex-grow: 1;
+    margin: 2px;
+}
