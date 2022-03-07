@@ -34,18 +34,18 @@ button:hover {
     justify-content: center;
     border: black;
     border-style: double;
-    margin-left: auto;
-    margin-right:auto;
+    border-width: 10px;
+    border-radius: 50% ;
+    width: 500px;
+    margin: auto;
 }
 
 
 #theMouth p {
-    background-color: skyblue;
-    /* width: 50px; */
+    background-image: url(https://media.giphy.com/media/FSqYDfsdaiG9W/giphy.gif);
     padding:1vw;
-}
-
-.theTeeth {
-    flex-grow: 1;
-    margin: 2px;
+    border-width: 10px;
+    border-radius: 50% ;
+    width: 500px;
+    margin: auto;
 }
