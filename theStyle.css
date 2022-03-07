@@ -34,6 +34,8 @@ button:hover {
     justify-content: center;
     border: black;
     border-style: double;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 
