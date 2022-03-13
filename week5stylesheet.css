@@ -1,0 +1,56 @@
+body{
+  background-color: red;
+}
+.title {
+  position: absolute;
+  background: yellow;
+  font-family: audiowide;
+  left: 60px;
+  font-size: 80px;
+}
+.black {
+  position: static;
+  background: black;
+  color: white;
+  font-weight: bold;
+  border: 10 px grey;
+}
+.blue {
+  position: static;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  border: 10 px grey;
+}
+.two {
+  position: absolute;
+  background: yellow;
+  font-family: audiowide;
+  top: 160px;
+  left: 220px;
+  font-size: 80px;
+}
+.three {
+  position: sticky;
+  background: yellow;
+  font-family: audiowide;
+  top: 320px;
+  left: 380px;
+  font-size: 150px;
+}
+.four {
+  position: absolute;
+  background: yellow;
+  font-family: audiowide;
+  top: 640px;
+  left: 700px;
+  font-size: 80px;
+}
+.five {
+  position: absolute;
+  background: yellow;
+  font-family: audiowide;
+  top: 800px;
+  left: 860px;
+  font-size: 80px;
+}
