@@ -50,3 +50,9 @@ button:hover {
     margin: auto;
     /*fuck*/
 }
+.Homebutt{
+  font-weight: bold;
+  font-size: 15px;
+  font-family: courier new;
+}
+}
