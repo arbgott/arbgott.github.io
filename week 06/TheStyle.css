@@ -1,0 +1,100 @@
+body {
+    background-color: #FFFFA7;
+    font-family: Lucida Console;;
+    width: 500px;
+    height: 1400px;
+    margin: 0 auto;
+}
+main{
+    background-color: #FFFFA7;
+    font-family: Lucida Console;;
+        padding: 25px ;
+        border: solid 15px;
+        margin: 5vh;
+}
+   
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 4vw;
+    font-family: Sarina;
+    font-weight: bold;
+    font-size: 100px;
+    color: #CC5500;
+    background-color: #088F8F;
+}
+.sub{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 3vw;
+    font-family: Sarina;
+    font-weight: bold;
+    font-size: 75px;
+    color: #CC5500;
+    background-color: pink;
+}
+.subsub{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 2vw;
+    font-family: Sarina;
+    font-weight: bold;
+    font-size: 50px;
+    color: #CC5500;
+    background-color: #088F8F;
+}
+.bodyinfo{
+    display:flex;
+    align-items: right;
+    justify-content: right;
+    justify-content: space-around;
+    margin: 1vw;  
+    color:  #088F8F;
+    font-size: 30px;
+    font-family: Lucida Console;
+}
+
+.ccc{
+    display:flex;
+    margin: 2vw;
+    font-family: Sarina;
+    font-weight: bold;
+    font-size: 45px;
+    color: #CC5500;
+    background-color: pink;
+    display: inline;
+}
+
+footer {
+ background-color: pink;
+ display: flex;
+ poition: relative;
+}
+
+footer:hover{
+    background-color: #CC5500;
+     poition: relative;
+
+}
+footer button  {
+    padding: 5vw;
+    background-color: pink;
+    border-radius: 50px;
+    margin: 5vw;
+    poition: relative;
+
+}
+
+button:hover{
+    background-color: #088F8F;
+    font-size: 50px;
+    color: #FFFFA7;
+    poition: relative;
+
+}

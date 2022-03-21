@@ -7,20 +7,23 @@ body{
   font-family: audiowide;
   left: 60px;
   font-size: 80px;
+  padding: 20px;
 }
 .black {
   position: static;
   background: black;
   color: white;
   font-weight: bold;
-  border: 10 px grey;
+  padding: 20px;
+
 }
 .blue {
   position: static;
   background: blue;
   color: white;
   font-weight: bold;
-  border: 10 px grey;
+  padding: 20px;
+
 }
 .two {
   position: absolute;
@@ -28,7 +31,9 @@ body{
   font-family: audiowide;
   top: 160px;
   left: 220px;
-  font-size: 80px;
+  font-size: 80px; 
+  padding: 20px;
+
 }
 .three {
   position: sticky;
@@ -37,6 +42,8 @@ body{
   top: 320px;
   left: 380px;
   font-size: 150px;
+  padding: 20px;
+
 }
 .four {
   position: absolute;
@@ -45,6 +52,8 @@ body{
   top: 640px;
   left: 700px;
   font-size: 80px;
+  padding: 20px;
+
 }
 .five {
   position: absolute;
@@ -53,9 +62,13 @@ body{
   top: 800px;
   left: 860px;
   font-size: 80px;
+  padding: 20px;
+
 }
 .Homebutt{
   font-weight: bold;
   font-size: 15px;
   font-family: audiowide;
+  padding: 20px;
+
 }
