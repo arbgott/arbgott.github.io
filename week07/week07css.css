@@ -10,11 +10,11 @@ main{
  	width: 500px;
     height: 1400px;
     margin: 0 auto;
-    padding:  10px;
+    padding:  2px;
 
 }
 #intro{
-	font-family: Rock 3D;
+	font-family: 'Rock 3D', cursive;	
 	color: white;
 	display:flex;
     align-items: center;
@@ -24,18 +24,19 @@ main{
     font-size: 75px;
 }
 #massage{
-	font-family: Rock 3D;
+	font-family: 'Rock 3D', cursive;	
 	color: white;
 	display:flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     margin: 5vw ;
-    font-size: 75px;
-    animation-duration: 3s;
-	animation-name: slidein;
-	animation-iteration-count: infinite;
-  	animation-direction: alternate;
+    font-size: 90px;
+    animation-direction: alternate;
+    animation-name: spinning;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes slidein {
   from {
@@ -48,19 +49,29 @@ main{
     width: 100%;
   }
 }
+@keyframes fadeIn {
+from {opacity:0;}
+to {opacity:1;}
+}
+
+
+@keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
 .p1{
 	font-family: helvetica;
 	color: white;
 	display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-weight: bold;
     margin: 5vw ;
     font-size: 30px;
 }	
 .quotetext{
 	float: center;
-	font-family: Rock 3D;
+	font-family: 'Rock 3D', cursive;	
 	color: white;
 	display:flex;
     align-items: center;
@@ -71,5 +82,15 @@ main{
     animation-duration: 3s;
 	animation-name: slidein;
 	animation-iteration-count: infinite;
-  	animation-direction: alternate;
+
 }
+.p2{
+	font-family: helvetica;
+	color: white;
+	display:flex;
+    align-items: left;
+    justify-content:left;
+    font-weight: bold;
+    margin: 5vw ;
+    font-size: 30px;
+   }
