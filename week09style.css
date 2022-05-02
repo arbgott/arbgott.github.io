@@ -9,3 +9,10 @@ and Verdigris */;
   font-weight:  bold; 
   color: #ffc40c ; /*yellow */
 }
+.carousel-item{
+  width: 800px;
+  height: 700px;
+  align-items: center;
+  position: relative;
+  left: 315px;
+}
