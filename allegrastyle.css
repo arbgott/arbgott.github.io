@@ -1,0 +1,66 @@
+body{
+	backgroundcolor: #0303d8;
+}
+.name{
+font-family: omnes-georgian, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 180pt;
+text-align:left;
+position: relative;
+top: 30px;
+padding-left: 20px;
+}
+
+#ag1{
+	color: #0b0baa;
+}
+#ag2{
+	color: #0f0ff4;
+}
+#ag3{
+	color: #0f0ff4
+}
+#ag4{
+	color: #7878f9;
+}
+#ag5{
+	color: white;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  color: #0303d8;
+  stroke: #3030fc;
+  left: 1000px;
+  right: 1240px;
+  top: 340px;
+  bottom: 420px;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+width: 100%;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown-content a {
+display: block;
+color: white;
+padding: 5px;
+text-decoration: none;
+font-family: omnes-georgian, sans-serif;
+font-weight: 700;
+font-style: normal;
+font size: 35pt;
+}
+.dropdown-content a:hover {
+color: white;
+background-color: #3030fc;
+}

@@ -1,0 +1,11 @@
+body{
+	background-color: #088F8F /*blue green -> i also really liked cadmium green Celadon
+and Verdigris */;
+}
+.sitetitle{
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-weight:  bold; 
+  color: #ffc40c ; /*yellow */
+}
