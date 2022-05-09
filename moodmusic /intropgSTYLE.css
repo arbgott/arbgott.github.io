@@ -1,0 +1,30 @@
+body{
+background: "moodimg.jpg";}
+#header{
+font-family: roc-grotesk-wide, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+color: black;
+text-align: center;
+position:  relative ;
+top:  300px;
+}
+
+#instruction{
+font-family: roc-grotesk-compressed, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 35px;
+color: black;
+text-align: center;
+position:  relative ;
+top: 350px;
+}
+.btn-dark{
+	width:  10%;
+	height: 10% ;
+	position:  relative ;
+	top: 375px ;
+	left:  645px;
+}
