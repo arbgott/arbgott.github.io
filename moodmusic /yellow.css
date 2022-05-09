@@ -1,17 +1,16 @@
 body{
-  background-color: #075911
+ background-color: #E0C600
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0DA820;
+  background-color: #FFEE06;
   font-family: roc-grotesk-compressed, sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 35px;
-color: #0DA820;
 text-align: left;
 position:  relative ;
 }
@@ -28,7 +27,7 @@ font-family: roc-grotesk-wide, sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 70px;
-color: #55DF65;
+color: #FFFD00;
 text-align: left;
 position:  relative ;
 top: 10px;
@@ -39,7 +38,7 @@ font-family: roc-grotesk-compressed, sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 35px;
-color: #0DA820;
+color: #FFEE06;
 text-align: left;
 position:  relative ;
 top: 30px;
