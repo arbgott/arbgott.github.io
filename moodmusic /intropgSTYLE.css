@@ -26,5 +26,10 @@ top: 350px;
 	height: 10% ;
 	position:  relative ;
 	top: 375px ;
-	left:  645px;
+/*	left:  645px;
+*/	text-align: center;
+	 align-items: center;
+	 margin: auto;
+
+
 }
