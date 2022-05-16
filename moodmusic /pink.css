@@ -12,6 +12,8 @@ font-weight: 700;
 font-style: normal;
 font-size: 35px;
 text-align: left;
+text-decoration-color: #FC95C2;
+text-decoration-line: none;
 position:  relative ;
 }
 li {
@@ -31,7 +33,7 @@ color: #FC95C2;
 text-align: left;
 position:  relative ;
 top: 10px;
-padding: 5;
+padding: 10;
 }
 .explanation{
 font-family: roc-grotesk-compressed, sans-serif;
@@ -44,6 +46,15 @@ position:  relative ;
 top: 30px;
 left: 5px;
 right: 600px;
-padding:  5;
+padding:  10;
+}
+
+#playlist {
+  top: 210px;
+  left: 700px;
+  right: 800px;
+  bottom: 2000px;
+  padding: 60;
+  position:  fixed;
 }
 

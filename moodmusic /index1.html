@@ -6,42 +6,47 @@
       <link rel="stylesheet" href="https://use.typekit.net/qxx0zaa.css">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
       <!-- <script src="p5.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-            <link rel="stylesheet" type="text/css" href="indexstyle.css">
-
     
     </head>
     <body>
-            <!-- <img id="mood" onload="draw()" src="moodimg.png" width="1600" height ="980" class="imglayout"> -->
-                
+     <!-- <img id="mood" onload="draw()" src="moodimg2.png" width="1600" height ="980" class="imglayout" -->> 
+        
 <canvas id="myCanvas" width="1500" height="900" style="border:1px solid #c3c3c3;"></canvas>
-<a id ="red" href="red.html"></a>
-<a id ="blue" href="blue.html"></a>
-<a id ="green" href="green.html"></a>
-<a id ="orange" href="orange.html"></a>
-<a id ="pink" href="pink.html"></a>
-<a id ="yellow" href="yellow.html"></a>
+<a id ="red_page" href="red.html"></a>
+<a id ="blue_page" href="blue.html"></a>
+<a id ="green_page" href="green.html"></a>
+<a id ="orange_page" href="orange.html"></a>
+<a id ="pink_page" href="pink.html"></a>
+<a id ="yellow_page" href="yellow.html"></a>
 
 
 <span id="result"></span>
 
 <script type="text/javascript">
-
-    let colors_dict = {
-        "red":["#af0c0c","#f20606"],
-        "orange":["#ef3511","#f45d11"],
-        "yellow":["#cec911","#f0f456"],
-        "green":["#033a03","#0dcc12"],
-        "pink":["#ef14c6","#f45d88"],
-        "blue":["#0e26af","#0cafef"]
+        let red =["#fcf1f0", "#fce3df", "#fcc4c2", "#ebc2c2", "#e5b4b3", "#f1a6a2", "#f78b86", "#bb9390", "#d78686", "#f2776d", "#f55e56", "#ce6a6a", "#ca575a" ,"#f4413f", "#c34949", "#bd3838", "#f31b1b", "#0d6ed0", "#f20606", "#af0c0c"]
+        let orange = ["#fcd6c3", "#fbc4a9", "#f9ae88", "#f0982b", "#f78c57", "#f47146", "#f36924", "#cf7046", "#b7734c", "#f45d11", "#ef3511", "#cd350e", "#bd3838", "#7e5a0b"]
+        let yellow = [ "#fdfdf1", "#fafae0", "#fafbd4", "#f5f7aa", "#f4f3c1", "#f6f898”", "#f4f781", "#f3f673", "#f0f456", "#e6e488", "#e3e74f", "#e0dd69", "#f1cf4e", "#dad74d", "#ccd363", "#d6d239", "#bdbc8d", "#cec911", "#b7c16a", "#8b9b49", "#7d9319"]
+        let green = ["#e1eee6", "#c8f3c9", "#d4e9aa", "#a9edab", "#c4d1c4", "#b7ea45", "#95e997", "#84e586", "#b0c1b1", "#7fe034", "#a0b5a0", "#87c06a", "#4dda51", "#90a890", "#6ecb12", "#819981", "#21d027", "#0dcc12", "#43a91c", "#688867", "#0da134", "#436c43", "#2f5d26", "#033a03","#043a03"]
+        let blue = ["eef7f7", "#c6ecfb", "#a9e3f9", "#ace9d0", "#c7cdec", "#86d7f7", "#a9b2e3", "#52c6f4", "#85aabc", "#8894d8", "#2ab9f1", "#3db7b8", "#8285ba", "#4d98ba", "#0cafef", "#0cba9e", "#6c7bce", "#7f62db", "#3787bd", "#58699a", "#4c5ec4", "#5e5e7e", "#0d6ed0", "#0a7376", "#3348bb", "#472f93", "#1d34b3", "#0e26af"]
+        let pink = ["#fef3f9", "#fee7f4", "#fbd3da", "#fbc6f1", "#f9aceb", "#f9aec1", "#cdb9c6", "#f89cb6", "#f789e2", "#f787a7", "#f6779b", "#f45bd7", "#f45d88", "#b9619f", "#f02bcc", "#f027b0", "#f12a5c", "#ef14c6", "#805385", "#b71cc1", "#792765"]
+    // let colors_dict = {
+    //     "red":["#af0c0c","#f20606"],
+    //     "orange":["#ef3511","#f45d11"],
+    //     "yellow":["#cec911","#f0f456"],
+    //     "green":["#033a03","#0dcc12"],
+    //     "blue":["#0e26af","#0cafef"],
+    //     "pink":["#ef14c6","#f45d88"]
         // "red": ["#880808", "#aa4a44", "#ee4b2b","a52a2a","#800020","6e260e","d22b2b","#c41e3a","#d70040","#d2042d","#811331","#dc143c","#8b0000", "#800000","#ff3131","#ff0000","#a52a2a"," #ff4433", "#ff2400","d60014", "#f3000e", "#f5000b", "#f6000a", "#e70017", "#f2000f", "#f60014","#b22222", "#cd5c5c", "#f90006","#f6001e", "#e30000", "#f6000a", "#f30011", "#c3000d"],
         // "blue": ["#00ffff","#7fffD4","#088f8f","#5f9ea0","#097969","#00ffff","#7df9ff","#008080","#40e0d0","#40b5ad","#89cff0 ","#0000ff","#7393b3","#0096ff","#0047ab","#6495ed","#00008b","#6f8faf","#1434a4","#7df9ff","#6082b6","#3f00ff","#add8e6","#191970","#000080", "#1f51ff","#a7c7e7","#96ded1","#4169e1","#0f52ba","#87ceeb","#4682b4","#40e0d0","#0437f2","#40b5ad","#0818a8","#00c2f0","#0e026a"," #0072d7", "#f0f8ff","#f0ffff","#8a2be2","#008b8b", "#483d8b", "#2f4f4f", "#00ded1", "#00bfff", "#696969", "#1e90ff", "#dcdcdc", "#808080", "#4b0082", "#e6e6fa", "#e0ffff", "#d3d3d3", "#87cefa", "#778899", "#b0c4de", "#66cdaa", "#0000cd","#9370db","#7b68ee","#48d1cc","#afeeee","#b0e0e6","#800080","6a5acd","#00ded1","#6a5acd","#778899","#9370bd","#c0c0c0", "#d3d3d3", "#f5f5f5"],
         // "green": ["#dfff00","#454b1b","#aaff00","#afe1af","#023020 ","#50c878","#5f8575 ","#4f7942","#228b22","#7cfc00","#008000","#355e3b","#00a36c","#2aaa8a","#4cbb17","#90ee90","#32cd32","#0bda51","#98fb98","#8a9a5b","#0fff50","808000","#c9cc3f","#b4c424","#93c572","#8a9a5b","#2e8v57","#009e60","#00ff7f","#7bd400"," #7edd00","#2d9e07","#006400","#556b2f", "#8dbc8f", "#adff2f", "#f0fff0", "#20b2aa", "#00ff00","3cb371","#00Fa9a","6b8e23","#2e8b57","#9acd32","#6b8e23", "#f5fffa", "#64b600"],
         // "orange": ["#ec5800", "#cc5500","#e35335","#e34234","#ffac1c"," #cc5500","#f28c28", "#ff7f50","#ff5f1f","#ffa500","#e35335","#ff7518 "," #ff4433"," #ff5f15","#f08000","#ffaa33","#e73200","#d14f04","#e52a00","#ffe4c4","#d2691e","#ff8c00","#ff4500","#cd853f","#8b4513","#f4a460","#a0522d","#FF6347"],
         // "pink": ["#c21e56","#e0115f","#fa8072","#f88379","#f89880","#f2d2bd","#de3163","#ff00ff","#ff69B4","#ffb6c1","f3cfc6","#ff10f0","#da70d6","#f8d8dc","#faa0a0","#ffc0cb","#f89880","#e30b5c","#f33a6a","#e0Bfb8","#c21e56","#e0115f","#e3738","#fbb393","#e10146", "#f27782","#8b008b","#9932cc","#e9967a", "#9400d3", "#ff1493", "#ff00ff", "#fff0f5", "#f08080", "#ffa07a","ba55d3","#c71585","#ffe4e1","#ffdaB9","ffc8cb","dda0dd","#bc8f8f","#d8bfd8","ee82ee","#ba55d3", "#d8bfd8", "#dda0dd", "#ee82ee", "#faf0e6"],
         // "yellow": ["#ffbf00","#ffc000","#daa520","#e1c16e","#ffea00", "#fdda0d","#ffff8f","#e4d00a","#ffd700","#e49b0f","#fcf55f","#fafa33","#fbed5d","#fada5e","#ffff00","#3cd500","#faebd7","#f5f5dc","#ffebcd","#deb887","#fff8dc","#b8860b","#bdb76b", "#fffff0", "#f0e68c", "#fffacd", "#fafad2", "#ffffe0","#ffe4b5","#ffdead","#fdf5e6","#eee8aa","#db7093","#ffefd5","#d2b48c","#f5deb3", "#fff5ee", "#fffaf0"]
-    };
+        //}:
 
    
     window.onload = function(){
@@ -64,47 +69,50 @@
         return;
       }
 
-      const eyeDropper = new EyeDropper();
+    const eyeDropper = new EyeDropper();
 
-      eyeDropper.open().then(result => {
+        eyeDropper.open().then(result => {
+            for (var i = red.length - 1; i >= 0; i--) {
+                if (red[i] == result.sRGBHex) {
+                window.location.assign("red.html");
+            }
+        }
+
+            for (var i = orange.length - 1; i >= 0; i--) {
+                if (orange[i] == result.sRGBHex) {
+                window.location.assign("orange.html");
+            }  
+        }
+            for (var i = yellow.length - 1; i >= 0; i--) {
+                if (yellow[i] == result.sRGBHex) {
+                    window.location.assign("yellow.html");
+                }
+            }
+            for (var i = green.length - 1; i >= 0; i--) {
+                if (green[i] == result.sRGBHex) {
+                    window.location.assign("green.html");
+            }
+               }
+
+            for (var i = blue.length - 1; i >= 0; i--) {
+                if (blue[i] == result.sRGBHex) {
+                    window.location.assign("blue.html");
+            }
+                }
+            for (var i = pink.length - 1; i >= 0; i--) {
+                if (pink[i] == result.sRGBHex) {
+                    window.location.assign("pink.html");
+                }
+            }
         resultElement.textContent = result.sRGBHex;
         resultElement.style.backgroundColor = result.sRGBHex;
-      }).catch(e => {
+        }).catch(e => {
         resultElement.textContent = e;
 
-        if (result.srgbhex = "#ef14c6","#f45d88"){
-            onclick:function(){
-             window.navigate('pink.html');
-            }
-          }else if (result.srgbhex ="#af0c0c","#f20606"){
-           onclick:function(){
-            window.navigate('red.html');
-        }else if (result.srgbhex ="#ef3511","#f45d11"){
-           onclick:function(){
-            window.navigate('orange.html');
-           }
-        }else if (result.srgbhex ="#cec911","#f0f456"){
-            onclick:function(){
-                window.navigate('yellow.html');
-        }else if (result.srgbhex = "#033a03","#0dcc12")
-            onclick:function(){
-                window.navigate('green.html');
-         }else if (result.srgbhex = "#0e26af","#0cafef")
-            onclick:function(){
-                window.navigate('blue.html')
 
+        });
 
-              // for (var i = colors_dict.length - 1; i >= 0; i--) {
-        //     for (var j = colors_dict[i].length - 1; j >= 0; j--) {
-        //         if (colors_dict[i][j] = result.sRGBHex) {
-        //             window.location.assign(colors_dict[i]);
-                    
-        //         }
-        //     }
-        // }
-      };
-
-    };
+});
 </script>
 
 </body>

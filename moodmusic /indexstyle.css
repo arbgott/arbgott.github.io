@@ -1,0 +1,26 @@
+canvas{
+	background-image: "moodimg.png";
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: roc-grotesk-compressed, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 35px;
+text-align: left;
+position:  relative ;
+text-align: center;  
+position: sticky;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+}
